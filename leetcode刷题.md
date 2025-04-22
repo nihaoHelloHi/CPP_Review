@@ -186,7 +186,8 @@ ListNode* reverse(ListNode* node){
 
 
 #### [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-
+> 这道题的后缀是相同的，如果后缀不相同则解答错误，原答案本质上是将前缀合并
+> 
 > 本质上是走过自己的路，再走过对方的路，这是求两个链表相交的方法
 
 ```c++
