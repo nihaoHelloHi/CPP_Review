@@ -159,9 +159,7 @@ git log -L 100,200:kernel/sched/core.c
 建议每周保持至少10小时的源码阅读时间，先从某个具体子系统（如进程调度）纵向突破。可以尝试给LKML发送第一个RFC补丁作为阶段目标，即使最终不被合并，这个过程也会让你获得质的提升。保持对https://github.com/torvalds/linux 的每日代码浏览习惯，关注Linus的最新commit动态。
 
 
-# kernal/sched (调度器核心)
-
-## 进程创建
+# 进程管理
 
 
 
